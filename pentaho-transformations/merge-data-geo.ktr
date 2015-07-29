@@ -628,11 +628,19 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <fields>      <field>        <name>objectid</name>
+    <fields>      <field>        <name>cartodb_id</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>the_geom</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
       </field>      <field>        <name>geocodig_m</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>objectid</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
@@ -673,10 +681,6 @@
         <length>-2</length>
         <precision>-2</precision>
       </field>      <field>        <name>shape_area</name>
-        <rename/>
-        <length>-2</length>
-        <precision>-2</precision>
-      </field>      <field>        <name>cartodb_id</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
@@ -725,10 +729,6 @@
         <length>-2</length>
         <precision>-2</precision>
       </field>      <field>        <name>TOTAL</name>
-        <rename/>
-        <length>-2</length>
-        <precision>-2</precision>
-      </field>      <field>        <name>the_geom</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
@@ -978,7 +978,7 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <separator>&#x3b;</separator>
+    <separator>,</separator>
     <enclosure>&#x22;</enclosure>
     <enclosure_forced>N</enclosure_forced>
     <enclosure_fix_disabled>N</enclosure_fix_disabled>
@@ -1000,8 +1000,8 @@
       <append>N</append>
       <split>N</split>
       <haspartno>N</haspartno>
-      <add_date>Y</add_date>
-      <add_time>Y</add_time>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
       <SpecifyFormat>N</SpecifyFormat>
       <date_time_format/>
       <add_to_result_filenames>Y</add_to_result_filenames>
@@ -1011,7 +1011,7 @@
     </file>
     <fields>
       <field>
-        <name>objectid</name>
+        <name>cartodb_id</name>
         <type>Integer</type>
         <format>&#x23;</format>
         <currency>&#x24;</currency>
@@ -1023,7 +1023,31 @@
         <precision>0</precision>
       </field>
       <field>
+        <name>the_geom</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>3860</length>
+        <precision>-1</precision>
+      </field>
+      <field>
         <name>geocodig_m</name>
+        <type>Integer</type>
+        <format>&#x23;</format>
+        <currency>&#x24;</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>15</length>
+        <precision>0</precision>
+      </field>
+      <field>
+        <name>objectid</name>
         <type>Integer</type>
         <format>&#x23;</format>
         <currency>&#x24;</currency>
@@ -1153,18 +1177,6 @@
         <trim_type>none</trim_type>
         <length>15</length>
         <precision>11</precision>
-      </field>
-      <field>
-        <name>cartodb_id</name>
-        <type>Integer</type>
-        <format>&#x23;</format>
-        <currency>&#x24;</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>0</precision>
       </field>
       <field>
         <name>created_at</name>
@@ -1309,18 +1321,6 @@
         <trim_type>none</trim_type>
         <length>15</length>
         <precision>0</precision>
-      </field>
-      <field>
-        <name>the_geom</name>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>3860</length>
-        <precision>-1</precision>
       </field>
     </fields>
      <cluster_schema/>
