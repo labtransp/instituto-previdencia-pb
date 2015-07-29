@@ -106,7 +106,7 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <filename>&#x2f;home&#x2f;efrem&#x2f;labtransp&#x2f;github&#x2f;instituto-previdencia-pb&#x2f;geo-data&#x2f;municipios.csv</filename>
+    <filename>&#x2f;home&#x2f;efrem&#x2f;labtransp&#x2f;github&#x2f;instituto-previdencia-pb&#x2f;data&#x2f;geo-data&#x2f;municipios.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -701,7 +701,7 @@
         <length>-2</length>
         <precision>-2</precision>
       </field>      <field>        <name>ANO DESP &#x3e; REC</name>
-        <rename/>
+        <rename>ano-desp_receita</rename>
         <length>-2</length>
         <precision>-2</precision>
       </field>      <field>        <name>RECEITAS</name>
@@ -717,15 +717,15 @@
         <length>-2</length>
         <precision>-2</precision>
       </field>      <field>        <name>SALDO FINAL</name>
-        <rename/>
+        <rename>saldo_final</rename>
         <length>-2</length>
         <precision>-2</precision>
       </field>      <field>        <name>C. NORMAL</name>
-        <rename/>
+        <rename>c_normal</rename>
         <length>-2</length>
         <precision>-2</precision>
       </field>      <field>        <name>C. COMPLEM.</name>
-        <rename/>
+        <rename>c_complementar</rename>
         <length>-2</length>
         <precision>-2</precision>
       </field>      <field>        <name>TOTAL</name>
@@ -1227,7 +1227,7 @@
         <precision>0</precision>
       </field>
       <field>
-        <name>ANO DESP &#x3e; REC</name>
+        <name>ano-desp_receita</name>
         <type>String</type>
         <format/>
         <currency/>
@@ -1275,7 +1275,7 @@
         <precision>-1</precision>
       </field>
       <field>
-        <name>SALDO FINAL</name>
+        <name>saldo_final</name>
         <type>String</type>
         <format/>
         <currency/>
@@ -1287,7 +1287,7 @@
         <precision>-1</precision>
       </field>
       <field>
-        <name>C. NORMAL</name>
+        <name>c_normal</name>
         <type>Number</type>
         <format>&#x23;.&#x23;</format>
         <currency>&#x24;</currency>
@@ -1299,7 +1299,7 @@
         <precision>0</precision>
       </field>
       <field>
-        <name>C. COMPLEM.</name>
+        <name>c_complementar</name>
         <type>String</type>
         <format/>
         <currency/>
