@@ -1013,14 +1013,14 @@
       <field>
         <name>cartodb_id</name>
         <type>Integer</type>
-        <format>&#x23;</format>
+        <format>0</format>
         <currency>&#x24;</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>0</precision>
+        <trim_type>both</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
       </field>
       <field>
         <name>the_geom</name>
@@ -1030,45 +1030,45 @@
         <decimal/>
         <group/>
         <nullif/>
-        <trim_type>none</trim_type>
-        <length>3860</length>
+        <trim_type>both</trim_type>
+        <length>-1</length>
         <precision>-1</precision>
       </field>
       <field>
         <name>geocodig_m</name>
         <type>Integer</type>
-        <format>&#x23;</format>
+        <format>0</format>
         <currency>&#x24;</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>0</precision>
+        <trim_type>both</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
       </field>
       <field>
         <name>objectid</name>
         <type>Integer</type>
-        <format>&#x23;</format>
+        <format>0</format>
         <currency>&#x24;</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>0</precision>
+        <trim_type>both</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
       </field>
       <field>
         <name>uf</name>
         <type>Integer</type>
-        <format>&#x23;</format>
+        <format>0</format>
         <currency>&#x24;</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>0</precision>
+        <trim_type>both</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
       </field>
       <field>
         <name>sigla</name>
@@ -1078,8 +1078,8 @@
         <decimal/>
         <group/>
         <nullif/>
-        <trim_type>none</trim_type>
-        <length>2</length>
+        <trim_type>both</trim_type>
+        <length>-1</length>
         <precision>-1</precision>
       </field>
       <field>
@@ -1090,8 +1090,8 @@
         <decimal/>
         <group/>
         <nullif/>
-        <trim_type>none</trim_type>
-        <length>30</length>
+        <trim_type>both</trim_type>
+        <length>-1</length>
         <precision>-1</precision>
       </field>
       <field>
@@ -1102,21 +1102,21 @@
         <decimal/>
         <group/>
         <nullif/>
-        <trim_type>none</trim_type>
-        <length>8</length>
+        <trim_type>both</trim_type>
+        <length>-1</length>
         <precision>-1</precision>
       </field>
       <field>
         <name>mesorregia</name>
         <type>Integer</type>
-        <format>&#x23;</format>
+        <format>0</format>
         <currency>&#x24;</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>0</precision>
+        <trim_type>both</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
       </field>
       <field>
         <name>nome_meso</name>
@@ -1126,21 +1126,21 @@
         <decimal/>
         <group/>
         <nullif/>
-        <trim_type>none</trim_type>
-        <length>17</length>
+        <trim_type>both</trim_type>
+        <length>-1</length>
         <precision>-1</precision>
       </field>
       <field>
         <name>microrregi</name>
         <type>Integer</type>
-        <format>&#x23;</format>
+        <format>0</format>
         <currency>&#x24;</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>0</precision>
+        <trim_type>both</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
       </field>
       <field>
         <name>nome_micro</name>
@@ -1150,33 +1150,33 @@
         <decimal/>
         <group/>
         <nullif/>
-        <trim_type>none</trim_type>
-        <length>26</length>
+        <trim_type>both</trim_type>
+        <length>-1</length>
         <precision>-1</precision>
       </field>
       <field>
         <name>shape_leng</name>
         <type>Number</type>
-        <format>&#x23;.&#x23;</format>
+        <format>0.&#x23;&#x23;&#x23;&#x23;&#x23;</format>
         <currency>&#x24;</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>11</precision>
+        <trim_type>both</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
       </field>
       <field>
         <name>shape_area</name>
         <type>Number</type>
-        <format>&#x23;.&#x23;</format>
+        <format>0.&#x23;&#x23;&#x23;&#x23;&#x23;</format>
         <currency>&#x24;</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>11</precision>
+        <trim_type>both</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
       </field>
       <field>
         <name>created_at</name>
@@ -1186,7 +1186,7 @@
         <decimal/>
         <group/>
         <nullif/>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
         <length>-1</length>
         <precision>-1</precision>
       </field>
@@ -1198,7 +1198,7 @@
         <decimal/>
         <group/>
         <nullif/>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
         <length>-1</length>
         <precision>-1</precision>
       </field>
@@ -1210,21 +1210,21 @@
         <decimal/>
         <group/>
         <nullif/>
-        <trim_type>none</trim_type>
-        <length>30</length>
+        <trim_type>both</trim_type>
+        <length>-1</length>
         <precision>-1</precision>
       </field>
       <field>
         <name>DADOS</name>
         <type>Integer</type>
-        <format>&#x23;</format>
+        <format>0</format>
         <currency>&#x24;</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>0</precision>
+        <trim_type>both</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
       </field>
       <field>
         <name>ano-desp_receita</name>
@@ -1234,8 +1234,8 @@
         <decimal/>
         <group/>
         <nullif/>
-        <trim_type>none</trim_type>
-        <length>4</length>
+        <trim_type>both</trim_type>
+        <length>-1</length>
         <precision>-1</precision>
       </field>
       <field>
@@ -1246,8 +1246,8 @@
         <decimal/>
         <group/>
         <nullif/>
-        <trim_type>none</trim_type>
-        <length>12</length>
+        <trim_type>both</trim_type>
+        <length>-1</length>
         <precision>-1</precision>
       </field>
       <field>
@@ -1258,8 +1258,8 @@
         <decimal/>
         <group/>
         <nullif/>
-        <trim_type>none</trim_type>
-        <length>13</length>
+        <trim_type>both</trim_type>
+        <length>-1</length>
         <precision>-1</precision>
       </field>
       <field>
@@ -1270,8 +1270,8 @@
         <decimal/>
         <group/>
         <nullif/>
-        <trim_type>none</trim_type>
-        <length>12</length>
+        <trim_type>both</trim_type>
+        <length>-1</length>
         <precision>-1</precision>
       </field>
       <field>
@@ -1282,21 +1282,21 @@
         <decimal/>
         <group/>
         <nullif/>
-        <trim_type>none</trim_type>
-        <length>13</length>
+        <trim_type>both</trim_type>
+        <length>-1</length>
         <precision>-1</precision>
       </field>
       <field>
         <name>c_normal</name>
         <type>Number</type>
-        <format>&#x23;.&#x23;</format>
+        <format>0.&#x23;&#x23;&#x23;&#x23;&#x23;</format>
         <currency>&#x24;</currency>
         <decimal>,</decimal>
         <group>.</group>
         <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>0</precision>
+        <trim_type>both</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
       </field>
       <field>
         <name>c_complementar</name>
@@ -1306,21 +1306,21 @@
         <decimal/>
         <group/>
         <nullif/>
-        <trim_type>none</trim_type>
-        <length>5</length>
+        <trim_type>both</trim_type>
+        <length>-1</length>
         <precision>-1</precision>
       </field>
       <field>
         <name>TOTAL</name>
         <type>Number</type>
-        <format>&#x23;.&#x23;</format>
+        <format>0.&#x23;&#x23;&#x23;&#x23;&#x23;</format>
         <currency>&#x24;</currency>
         <decimal>,</decimal>
         <group>.</group>
         <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>0</precision>
+        <trim_type>both</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
       </field>
     </fields>
      <cluster_schema/>
